@@ -27,6 +27,7 @@ function setup() {
     }else{
       foods--
     }
+    dog.addImage(happydog);
   });
 
   addFood = createButton("Add food");
